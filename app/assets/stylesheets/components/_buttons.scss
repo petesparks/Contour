@@ -1,0 +1,18 @@
+.btn-medium {
+  color: #00BFD8;
+  border: 1.5px solid #00BFD8;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: 400;
+  opacity: 1;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 9px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #da552f;
+  border: 1.5px solid #da552f;
+  transition: 0.5s;
+}
