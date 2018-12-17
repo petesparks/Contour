@@ -1,16 +1,22 @@
 .carousel {
   z-index: -1;
-  height: 100%;
+  width:50vw;
+  // height: 300px;
 }
+
+.carousel-item {
+  align-items: flex-start;
+}
+
 
 .picture1 {
   background-image: linear-gradient(-180deg, rgba(0,101,168,0.2) 0%,
     rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1544799168/Contour/hiseman_contour-12th-horsham.jpg');
   color: black;
   text-align: center;
-  height: 100vh;
+  height: 80vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
-  background-size: cover !important;
+  background-size: cover;
   background-position: center top;
   display: flex;
   align-items: center;
@@ -24,7 +30,7 @@
     rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1544870468/Contour/hiseman_contour-12th-horsham_web.jpg');
   color: black;
   text-align: center;
-  height: 100vh;
+  height: 80vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-position: center top;
@@ -40,7 +46,7 @@
     rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1544870519/Contour/hiseman_balfron_aug18_contour-21.jpg');
   color: black;
   text-align: center;
-  height: 100vh;
+  height: 80vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-position: center top;
