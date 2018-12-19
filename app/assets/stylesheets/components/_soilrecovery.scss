@@ -1,0 +1,13 @@
+.wrap-recovery {
+  background-image: linear-gradient(-180deg, rgba(0,101,168,0.2) 0%,
+    rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1544799168/Contour/hiseman_contour-12th-horsham.jpg');
+  color: white;
+  text-align: center;
+  height: 70vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  background-position: center top;
+  // display: flex;
+  align-items: center;
+  justify-content: center;
+}
