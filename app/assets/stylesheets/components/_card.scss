@@ -30,7 +30,7 @@
   animation: slide 2.5s forwards;
   animation-delay: 1s;
   float: left;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 60px;
   padding: 0px;
   width: 100%;
@@ -181,11 +181,11 @@
       transition: all 0.3s;
     }
     &:hover {
-      color: #da552f;
+      color: #00BFD8;
       &::after {
         transform: translate(15px, -50%);
         opacity: 1;
-        color: #da552f;
+        color: #00BFD8;
       }
     }
   }
