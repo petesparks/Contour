@@ -1,0 +1,19 @@
+html {
+  min-height:100%;
+}
+
+body {
+    min-height:100%;
+    padding:0;
+    margin:0;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
