@@ -79,6 +79,10 @@
       }
     }
   }
+  .wrapper2-services, .wrapper-services {
+    background-color: $white;
+    min-height: 400px;
+  }
   .data {
     position: absolute;
     bottom: 0;
