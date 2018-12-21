@@ -18,6 +18,8 @@
   top: 20px;
   left: 0px;
   height: auto;
+  align-items: center;
+
 }
 
 .sd-right {
@@ -25,7 +27,55 @@
 }
 
 .soil-image {
-  position: absolute;
-  right: -515px;
-  top: -217px;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  // position: absolute;
+  // margin-top: 0px;
+  // margin-left: 165px;
+  // margin-bottom: 30px;
 }
+
+.soil-image-con {
+  width: 36%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  // position: absolute;
+  // margin-top: 0px;
+  // margin-left: 155px;
+  // margin-bottom: 0px;
+}
+
+.inert-img {
+  height: 500px;
+  background-image: url(https://res.cloudinary.com/lwsw18ldn/image/upload/c_crop,h_2434,w_2434/v1545391592/Contour/Soil-inert.jpg);
+  background-size: cover;
+  background-position: center top;
+  box-shadow: 0 19px 38px rgba($black, 0.3), 0 15px 12px rgba($black, 0.2);
+  margin-bottom: 40px;
+  border-radius: 2px;
+}
+
+// @media only screen and (min-width: 768px) {
+//   .soil-image {
+//     margin-left: 90px;
+//   }
+// }
+
+// @media only screen and (max-width: 600px) {
+//  .soil-image {
+//     margin-left: 90px;
+//   }
+// }
+@media only screen and (max-width: 600px) {
+ .soil-image-con {
+    margin-left: calc(50% - 75px);
+  }
+}
+
+//https://res.cloudinary.com/lwsw18ldn/image/upload/c_crop,h_2434,w_2434/v1545391592/Contour/Soil-inert.jpg
