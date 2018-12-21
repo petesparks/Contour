@@ -15,7 +15,7 @@
 }
 
 .banner1 {
-  background-image: linear-gradient(180deg, rgba(0, 85, 75, 0.3) 0%, rgba(0, 31, 62, 0.05) 20%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1544870468/Contour/hiseman_contour-12th-horsham_web.jpg');
+  background-image: url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1544870468/Contour/hiseman_contour-12th-horsham_web.jpg');
   color: white;
   text-align: center;
   height: 100vh;
@@ -27,6 +27,16 @@
   justify-content: center;
   margin-top: -60px;
   transition: transform 2s ease, opacity .5s ease-out;
+  &:before {
+    content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0));
+  opacity: 1;
+  }
 }
 
 .banner2 {
