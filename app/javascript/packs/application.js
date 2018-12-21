@@ -14,5 +14,8 @@ import 'slick-carousel/slick/slick-theme.scss'
 
 import '../components/slick';
 
+import { loadDynamicBannerText } from '../components/banner';
+loadDynamicBannerText();
+
 
 console.log('Hello World from Webpacker')
