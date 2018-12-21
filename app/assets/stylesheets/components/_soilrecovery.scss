@@ -2,14 +2,28 @@
   width: 100%;
   min-height: 20rem;
   overflow: -webkit-paged-x;
+  background-color: #272838;
+  color: white;
+  font-weight: lighter;
   // position: relative;
+  h1 {
+    padding: 20px;
+  }
+  h2 {
+    text-align: center;
+    font-weight: lighter;
 
+  }
 }
 
 .services-title {
-  // position: absolute;
-  // top: 50px;
-  // left: 58px;
+  h1 {
+    text-align: center;
+    font-weight: lighter;
+  }
+  h2 {
+    padding-bottom: 20px;
+  }
 }
 
 .services-description {
@@ -22,16 +36,12 @@
 
 }
 
-.sd-right {
-  // text-align: right;
-}
-
 .soil-image {
   width: 40%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 39px;
   padding-bottom: 20px;
   // position: absolute;
   // margin-top: 0px;
@@ -61,11 +71,9 @@
   border-radius: 2px;
 }
 
-// @media only screen and (min-width: 768px) {
-//   .soil-image {
-//     margin-left: 90px;
-//   }
-// }
+.sd-right {
+  // text-align: right;
+}
 
 // @media only screen and (max-width: 600px) {
 //  .soil-image {
@@ -74,8 +82,6 @@
 // }
 @media only screen and (max-width: 600px) {
  .soil-image-con {
-    margin-left: calc(50% - 75px);
+    margin-left: calc(50% - 64px);
   }
 }
-
-//https://res.cloudinary.com/lwsw18ldn/image/upload/c_crop,h_2434,w_2434/v1545391592/Contour/Soil-inert.jpg
