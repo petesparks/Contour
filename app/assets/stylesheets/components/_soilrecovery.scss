@@ -1,8 +1,12 @@
 .wrap-soil {
   width: 100%;
-  min-height: 20rem;
+  min-height: 90vh;
   overflow: -webkit-paged-x;
-  background-color: #272838;
+  // background-color: #272838;
+  background-image: linear-gradient(-180deg, rgba(0,0,0,0.6) 0%,
+    rgba(0,0,0,0.3) 80%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1545561258/Contour/IMG_6736.jpg');
+  background-size: cover !important;
+  background-position: center top;
   color: white;
   font-weight: lighter;
   // position: relative;
@@ -20,6 +24,7 @@
   h1 {
     text-align: center;
     font-weight: lighter;
+    margin-top: 30px;
   }
   h2 {
     padding-bottom: 20px;
