@@ -1,15 +1,155 @@
 .service-banner {
   background-image: linear-gradient(-180deg, rgba(0,101,168,0.2) 0%,
-    rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1545561258/Contour/IMG_6736.jpg');
+    rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1545048688/Contour/hiseman_contour-horsham_300dpi_supersize-17.jpg');
   color: white;
   text-align: center;
-  height: 90vh;
+  height: 70vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
-  background-position: center top;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 0px;
   transition: transform 2s ease, opacity .5s ease-out;
+}
+
+.service-banner2 {
+  background-image: linear-gradient(-180deg, rgba(0,101,168,0.2) 0%,
+    rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1545048442/Contour/IMG_1328.jpg');
+  color: white;
+  text-align: center;
+  height: 70vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  transition: transform 2s ease, opacity .5s ease-out;
+}
+
+.service-banner3 {
+  background-image: linear-gradient(-180deg, rgba(0,101,168,0.2) 0%,
+    rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1545586932/Contour/hiseman_contour-horsham_4th.jpg');
+  color: white;
+  text-align: center;
+  height: 70vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  transition: transform 2s ease, opacity .5s ease-out;
+}
+
+.service-banner4 {
+  background-image: linear-gradient(-180deg, rgba(0,101,168,0.2) 0%,
+    rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1544176058/Contour/IMG_3238.jpg');
+  color: white;
+  text-align: center;
+  height: 70vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  transition: transform 2s ease, opacity .5s ease-out;
+}
+
+.service-banner5 {
+  background-image: linear-gradient(-180deg, rgba(0,101,168,0.2) 0%,
+    rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1545587727/Contour/hiseman_contour-horsham_13th.jpg');
+  color: white;
+  text-align: center;
+  height: 70vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  transition: transform 2s ease, opacity .5s ease-out;
+}
+
+.service-wrapper {
+  height: auto;
+  // background-color: #2D3F5B;
+}
+
+.service-title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #fff;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  & p {
+    font-weight: lighter;
+  }
+}
+
+.content-test h4 {
+  color: #f4f4f4;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 1.5;
+  text-align: center;
+  // overflow: scroll;
+}
+
+.service-content {
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.quotes {
+  color: #00BFD8;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author-test {
+  margin-top: 30px;
+  float: right;
+  color: #00BFD8;
+  margin-bottom: 40px;
+}
+
+.testimonials {
+  display: block;
+  margin: 30px auto;
+  margin-bottom: 40px;
+}
+
+.slick-prev,
+.slick-next {
+  // left: 0px !important;
+  // right: 0px !important;
+  &:before {
+    font-size: 38px !important;
+    color: $brand-primary !important;
+  }
+}
+
+.slick-next {
+  right: -40px !important;
+}
+
+.slick-prev {
+  left: -60px !important;
+}
+
+.slick-dots li {
+  height: 35px !important;
 }
