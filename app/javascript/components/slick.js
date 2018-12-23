@@ -16,3 +16,24 @@ $(".testimonial-carousel").slick({
     }
   ]
 });
+
+$(".service-carousel").slick({
+  dots: false,
+  infinite: true,
+  speed: 600,
+  autoplay: true,
+  arrows: true,
+  autoplaySpeed: 5000,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  // pauseOnFocus: false,
+  pauseOnHover: false,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        arrows: false
+      }
+    }
+  ]
+});
