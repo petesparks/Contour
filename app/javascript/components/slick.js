@@ -2,9 +2,9 @@ $(".testimonial-carousel").slick({
   dots: true,
   infinite: false,
   speed: 600,
-  autoplay: false,
+  autoplay: true,
   arrows: true,
-  autoplaySpeed: 4000,
+  autoplaySpeed: 5000,
   slidesToShow: 1,
   slidesToScroll: 1,
   responsive: [
