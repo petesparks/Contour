@@ -27,6 +27,12 @@
   height: 40px;
 }
 
+/* Phone Number */
+.navbar-phone {
+  color: #00BFD8;
+  justify-content: center;
+}
+
 /* User Avatar */
 .navbar .avatar {
   height: 35px;
@@ -64,6 +70,10 @@
 }
 
 /* Dropdown menu */
+.dropdown {
+  color: $white;
+}
+
 .navbar-dropdown-menu {
   margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;

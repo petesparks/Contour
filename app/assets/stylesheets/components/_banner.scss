@@ -79,7 +79,7 @@
 
 .banner-content p {
   position: relative;
-  top: 250px;
+  top: 30vh;
   // left: -400px;
   font-size: 25px;
   font-weight: lighter;
@@ -87,5 +87,14 @@
   opacity: 0.9;
   margin-bottom: 30px;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-content p {
+    font-size: 16px;
+  }
+  .banner-content img {
+    height: 150px;
+  }
 }
 

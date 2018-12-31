@@ -20,7 +20,8 @@ $(".testimonial-carousel").slick({
 $(".service-carousel").slick({
   dots: false,
   infinite: true,
-  speed: 600,
+  // fade: true,
+  speed: 1400,
   autoplay: true,
   arrows: true,
   autoplaySpeed: 5000,

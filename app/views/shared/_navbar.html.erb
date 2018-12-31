@@ -1,6 +1,11 @@
-<div class="navbar <%= 'navbar-home' if params[:action] == 'home' %>">
+<nav class="navbar <%= 'navbar-home' if params[:action] == 'home' %>">
   <!-- Logo -->
   <%= link_to image_tag('NavbarLogo.png'), root_path, class: "navbar-brand flex-grow-1" %>
+
+  <!-- Phone Number -->
+  <div class="navbar-phone">
+    <a href="07793004675" class="navbar-item navbar-link">Call Ingrid: 07793 004675</a>
+  </div>
 
   <!-- Right Navigation -->
   <div class="navbar-right">
@@ -30,12 +35,12 @@
     <div class="dropdown">
       <i class="fas fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><%= link_to 'Services', services_path %></li>
+        <li><%= link_to 'Projects', projects_path %></li>
+        <li><%= link_to 'Team', about_path %></li>
+        <li><%= link_to 'About', about_path %></li>
+        <li><%= link_to 'Contact', about_path %></li>
       </ul>
     </div>
   </div>
-</div>
+</nav>
