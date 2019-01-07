@@ -90,6 +90,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .banner, .banner1, .banner2{
+    background-attachment: scroll;
+  }
   .banner-content p {
     font-size: 16px;
   }
