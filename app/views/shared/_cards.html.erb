@@ -1,44 +1,39 @@
-<div class="container">
-  <div class="row justify-content-between">
-    <div class="col-24 col-md-12">
-      <div class="design card">
-        <div class="wrapper <%= 'wrapper-services' if params[:action] == 'services' %>">
-          <div class="header">
-            <div class="date">
-              <span>Traditional</span>
-            </div>
-            <!-- <ul class="menu-content">
-              <li><a href="#" class="fa fa-golf-ball"><span>18</span></a></li>
-              <li><a href="#" class="fa fa-comment"><span>3</span></a></li>
-            </ul> -->
-          </div>
+<div class="wrapper-card">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-24 col-md-12">
+        <div class="card card-sparks text-white">
+          <img class="card-img" src="https://res.cloudinary.com/lwsw18ldn/image/upload/v1545211424/Contour/hiseman_balfron_aug18_contour.jpg" alt="Card image">
           <div class="data">
             <div class="content">
-              <span class="author">Balfron Golf Society</span>
-              <h2 class="title"><%= link_to 'Traditional Golf Course Construction', services_path %></h2>
+              <span class="sub-title">Balfron Golf Society</span>
+              <h3 class="title"><%= link_to 'Traditional Golf Course Construction', services_path %></h3>
               <p class="text">From the rebuilding of a single hole to the design and build of an entire golf complex, our attention to detail is paramount.</p>
               <%= link_to 'Learn More', services_path, class:"button" %>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="col-24 col-md-12">
-      <div class="design card">
-        <div class="wrapper2 <%= 'wrapper2-services' if params[:action] == 'services' %>">
-          <div class="header">
-            <div class="date">
-              <span>Soil Recovery/Infill</span>
-            </div>
-            <!-- <ul class="menu-content">
-              <li><a href="#" class="fa fa-snowplow"><span>18</span></a></li>
-              <li><a href="#" class="fa fa-recycle"><span>3</span></a></li>
-            </ul> -->
-          </div>
+      <div class="col-24 col-md-12">
+        <div class="card card-sparks text-white">
+          <img class="card-img" src="https://res.cloudinary.com/lwsw18ldn/image/upload/v1545211783/Contour/hiseman_contour-horsham-14th.jpg" alt="Card image">
           <div class="data">
             <div class="content">
-              <span class="author">Horsham 'The Oaks' Golf Course</span>
-              <h2 class="title"><%= link_to 'Soil Recovery/Infill Contruction', services_path %></h2>
+              <span class="sub-title">Horsham 'The Oaks' Golf Course</span>
+              <h3 class="title"><%= link_to 'Soil Recovery/Infill Contruction', services_path %></h3>
+              <p class="text">Working with licensed and specialist soil importation companies, Contour can deliver a fully managed and efficient construction of a golf course infill project.</p>
+              <%= link_to 'Learn More', services_path, class:"button" %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-24 col-md-8">
+        <div class="card card-sparks text-white">
+          <img class="card-img" src="https://res.cloudinary.com/lwsw18ldn/image/upload/v1545211783/Contour/hiseman_contour-horsham-14th.jpg" alt="Card image">
+          <div class="data">
+            <div class="content">
+              <span class="sub-title">Horsham 'The Oaks' Golf Course</span>
+              <h3 class="title"><%= link_to 'Soil Recovery/Infill Contruction', services_path %></h3>
               <p class="text">Working with licensed and specialist soil importation companies, Contour can deliver a fully managed and efficient construction of a golf course infill project.</p>
               <%= link_to 'Learn More', services_path, class:"button" %>
             </div>
@@ -48,3 +43,4 @@
     </div>
   </div>
 </div>
+
