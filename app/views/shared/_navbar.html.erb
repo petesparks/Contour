@@ -1,14 +1,14 @@
 <nav class="navbar <%= 'navbar-home' if params[:action] == 'home' %>">
   <!-- Logo -->
-  <%= link_to image_tag('NavbarLogo.png'), root_path, class: "navbar-brand flex-grow-1" %>
+  <%= link_to image_tag('NavbarLogo.png'), root_path, class: "navbar-brand" %>
 
   <!-- Phone Number -->
-  <div class="navbar-phone">
-    <a href="07793004675" class="navbar-item navbar-link">Call Ingrid: 07793 004675</a>
-  </div>
+
+  <a href="tel:07793004675" class="navbar-brand navbar-item navbar-link">Call Ingrid: 07793 004675</a>
+
 
   <!-- Right Navigation -->
-  <div class="navbar-right">
+  <div class="navbar-right ml-auto">
     <%= link_to 'Services', services_path, class: "navbar-item navbar-link" %>
     <%= link_to 'Projects', projects_path, class: "navbar-item navbar-link" %>
     <%= link_to 'Team', about_path, class: "navbar-item navbar-link" %>
