@@ -27,10 +27,17 @@
   height: 40px;
 }
 
+@media screen and (max-width: 700px){
+  .navbar-brand img {
+    height: 30px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+  }
+}
+
 /* Phone Number */
-.navbar-phone {
+.navbar-brand a {
   color: #00BFD8;
-  justify-content: center;
 }
 
 /* User Avatar */
@@ -57,16 +64,29 @@
   padding: 0 20px;
 }
 
+@media screen and (max-width: 700px){
+  .navbar-item {
+    padding: 0 12px;
+  }
+  .navbar {
+    padding: 0 0px;
+  }
+}
+
 /* Navbar link */
 .navbar-link {
   color: #00BFD8;
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 .navbar-link:hover {
   color: #da552f;
   text-decoration: none;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 700px){
+  font-weight: 300px;
 }
 
 /* Dropdown menu */
