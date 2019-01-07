@@ -132,13 +132,16 @@
   margin-bottom: 40px;
 }
 
-.slick-prev,
-.slick-next {
-  // left: 0px !important;
-  // right: 0px !important;
-  &:before {
-    font-size: 38px !important;
-    color: $brand-primary !important;
+.service-carousel {
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+    // left: 0px !important;
+    // right: 0px !important;
+    &:before {
+      font-size: 38px !important;
+      color: $brand-primary !important;
+    }
   }
 }
 

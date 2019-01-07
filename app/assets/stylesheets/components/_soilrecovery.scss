@@ -7,6 +7,7 @@
     rgba(0,0,0,0.5) 80%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1545561258/Contour/IMG_6736.jpg');
   background-size: cover !important;
   background-position: center top;
+  background-attachment: fixed;
   color: white;
   font-weight: lighter;
   // position: relative;
@@ -17,6 +18,12 @@
     text-align: center;
     font-weight: lighter;
 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wrap-soil {
+    background-attachment: scroll;
   }
 }
 
