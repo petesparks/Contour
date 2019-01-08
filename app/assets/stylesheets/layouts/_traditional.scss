@@ -1,0 +1,63 @@
+.wrap-trad {
+  min-height: 80vh;
+  width: 100%;
+  background-color: #2D3F5B;
+  background-attachment: fixed;
+  background-size: cover;
+  h1 {
+    color: $white;
+    font-weight: 600;
+  }
+  .card {
+    margin-top: 20px;
+  }
+  .card img {
+    height: 400px;
+    object-fit: cover;
+  }
+  .wrap-soil {
+    // min-height: 70vh;
+  }
+}
+
+.trad-title {
+  h4, h3 {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: $white;
+  }
+  h1 {
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+  }
+  h2 {
+    padding-bottom: 20px;
+  }
+  p {
+    color: $white;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.wrapper-trad {
+  width: 100%;
+  min-height: 90vh;
+  overflow: -webkit-paged-x;
+  // background-color: #272838;
+  background-image: url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1546972760/Contour/hiseman_balfron_aug18_contour_10.jpg');
+  background-size: cover !important;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper-trad {
+    background-attachment: scroll;
+  }
+}
