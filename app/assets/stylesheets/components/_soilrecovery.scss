@@ -3,8 +3,8 @@
   min-height: 90vh;
   overflow: -webkit-paged-x;
   // background-color: #272838;
-  background-image: linear-gradient(-180deg, rgba(0,0,0,0.65) 0%,
-    rgba(0,0,0,0.5) 80%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1545561258/Contour/IMG_6736.jpg');
+  background-image: linear-gradient(-180deg, rgba(0,0,0,0.15) 0%,
+    rgba(0,0,0,0.25) 80%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/v1545561258/Contour/IMG_6736.jpg');
   background-size: cover !important;
   background-position: center top;
   background-attachment: fixed;
@@ -12,7 +12,10 @@
   font-weight: lighter;
   // position: relative;
   h1 {
-    padding: 20px;
+    padding: 10px;
+    font-weight: 700;
+    text-align: center;
+
   }
   h2 {
     text-align: center;
@@ -28,9 +31,9 @@
 }
 
 .services-title {
-  h1 {
+  h4 {
     text-align: center;
-    font-weight: lighter;
+    // font-weight: lighter;
     margin-top: 30px;
   }
   h2 {
@@ -45,20 +48,40 @@
   left: 0px;
   height: auto;
   align-items: center;
-
+  .card {
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 520px;
+  }
 }
 
 .soil-image {
-  width: 40%;
-  display: block;
+  width: 47%;
+  float: left;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 39px;
+  // margin-top: 39px;
   padding-bottom: 20px;
+  padding-top: 12px;
+
   // position: absolute;
   // margin-top: 0px;
   // margin-left: 165px;
   // margin-bottom: 30px;
+}
+
+.soil-image-2 {
+  width: 50%;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  // margin-top: 39px;
+  // padding-bottom: 20px;
+  // position: absolute;
+  // margin-top: 0px;
+  // margin-left: 165px;
+  margin-bottom: 5px;
 }
 
 .soil-image-con {
@@ -66,7 +89,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
   // position: absolute;
   // margin-top: 0px;
   // margin-left: 155px;
