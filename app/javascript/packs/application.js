@@ -7,15 +7,20 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 import 'bootstrap';
+import 'aos/dist/aos.css'
 
 import 'slick-carousel';
 import 'slick-carousel/slick/slick.scss'
 import 'slick-carousel/slick/slick-theme.scss'
 
 import '../components/slick';
+import '../components/aos';
 
 import { loadDynamicBannerText } from '../components/banner';
-loadDynamicBannerText();
+// loadDynamicBannerText();
+
+var AOS = require('aos');
+AOS.init();
 
 
 console.log('Hello World from Webpacker')
