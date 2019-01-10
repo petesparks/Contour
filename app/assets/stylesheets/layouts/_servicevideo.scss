@@ -1,0 +1,71 @@
+.video-wrapper {
+  max-width: 100vw;
+  overflow: hidden;
+  background-color: black;
+}
+
+#myVideo {
+  position: relative;
+  background-color: black;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  margin-bottom: -10px;
+}
+
+/* Add some content at the bottom of the video/page */
+.contentVid {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 15vh;
+  left: 0%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Media queries work in conjunction with video.js */
+
+@media only screen and(max-width: 600px) {
+  .contentVid {
+    bottom: -40vh;
+  }
+  .video-wrapper {
+    min-height: 80vh;
+  }
+}
+
+@media only screen and(max-width: 800px) {
+  #myVideo {
+    left: -40%;
+  }
+}
+
+@media only screen and(max-width: 600px) {
+  #myVideo {
+    left: -60%;
+  }
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+#myBtn:hover {
+  background: none;
+  color: #00BFD8;
+  border-color: #00BFD8;
+}

@@ -15,6 +15,7 @@ import 'slick-carousel/slick/slick-theme.scss'
 
 import '../components/slick';
 import '../components/aos';
+import '../components/video';
 
 import { loadDynamicBannerText } from '../components/banner';
 // loadDynamicBannerText();
