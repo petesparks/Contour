@@ -3,7 +3,7 @@
     rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/q_auto:low/v1547036328/Contour/hiseman_contour_golf_horsham_4th_lake.jpg');
   color: white;
   text-align: center;
-  height: 80vh;
+  height: 90vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-position: center;
@@ -19,7 +19,7 @@
     rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/q_auto:low/v1545048442/Contour/Contour_golf_lake_construction.jpg');
   color: white;
   text-align: center;
-  height: 80vh;
+  height: 90vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-position: center;
@@ -35,7 +35,7 @@
     rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/q_auto:low/v1545586932/Contour/hiseman_contour_golf_horsham_4th.jpg');
   color: white;
   text-align: center;
-  height: 80vh;
+  height: 90vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-position: center;
@@ -51,7 +51,7 @@
     rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/c_scale,q_auto:low/w_2500/v1544176058/Contour/Contour_golf_13th_lake_construction.jpg');
   color: white;
   text-align: center;
-  height: 80vh;
+  height: 90vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-position: center;
@@ -67,7 +67,7 @@
     rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/q_auto:low/v1545587727/Contour/hiseman_contour_golf_horsham_13th.jpg');
   color: white;
   text-align: center;
-  height: 80vh;
+  height: 90vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-position: center;
@@ -80,6 +80,7 @@
 
 .service-wrapper {
   height: auto;
+  margin-bottom: -7px;
   // background-color: #2D3F5B;
 }
 
@@ -94,42 +95,6 @@
   & p {
     font-weight: lighter;
   }
-}
-
-.content-test h4 {
-  color: #f4f4f4;
-  font-size: 18px;
-  font-weight: lighter;
-  line-height: 1.5;
-  text-align: center;
-  // overflow: scroll;
-}
-
-.service-content {
-  padding-left: 30px;
-  padding-right: 30px;
-
-}
-
-.quotes {
-  color: #00BFD8;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.author-test {
-  margin-top: 30px;
-  float: right;
-  color: #00BFD8;
-  margin-bottom: 40px;
-}
-
-.testimonials {
-  display: block;
-  margin: 30px auto;
-  margin-bottom: 40px;
 }
 
 .service-carousel {
