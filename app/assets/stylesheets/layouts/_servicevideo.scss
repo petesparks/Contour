@@ -3,11 +3,12 @@
   height: 100vh;
   overflow: hidden;
   background-color: black;
+  position: relative;
   // z-index: -1;
 }
 
 #myVideo {
-  position: relative;
+  // position: relative;
   background-color: black;
   min-width: 100%;
   min-height: 100%;
@@ -20,8 +21,8 @@
 .contentVid {
   display: flex;
   flex-direction: column;
-  position: relative;
-  top: -30rem;
+  position: absolute;
+  top: -25rem;
   left: 0%;
   height: auto;
   background: rgba(0, 0, 0, 0.5);
