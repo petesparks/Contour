@@ -41,6 +41,7 @@ $(".service-carousel").slick({
 
 $(".project-carousel").slick({
   dots: false,
+  // slide: '.project-image',
   infinite: true,
   fade: true,
   speed: 2500,
