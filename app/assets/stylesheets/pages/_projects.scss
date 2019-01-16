@@ -51,16 +51,29 @@
 
 .text-bottom {
   position: absolute;
-  bottom: 40%;
+  bottom: 15%;
   right: 10%;
   img {
     width: 35%;
   }
 }
 
+.project-divide-banner {
+  background-image: url("https://res.cloudinary.com/lwsw18ldn/image/upload/v1547640646/Contour/hiseman_contour-horsham_golf_18th.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-color: black;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: -1px;
+}
+
 @media only screen and (max-width: 600px) {
   .project-divide {
-    height: 100vh;
+    height: 70vh;
+  }
+  .project-divide-banner {
+    min-height: 60vh;
   }
   .text-center {
     top: 25%;
@@ -69,7 +82,7 @@
     font-size: 1rem;
   }
   .text-bottom {
-    bottom: 55%;
+    bottom: 25%;
     img {
       width: 24%;
     }
