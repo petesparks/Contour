@@ -1,0 +1,49 @@
+.contact-wrap {
+  min-height: 30vh;
+  height: auto;
+  position: relative;
+}
+
+.contact-banner {
+  background-image: url("https://res.cloudinary.com/lwsw18ldn/image/upload/q_auto:low/v1547640469/Contour/hiseman_contour-horsham_golf-contact.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-color: black;
+  width: 100%;
+  min-height: 60vh;
+
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0rem;
+  left: 1%;
+  height: 96%;
+  max-height: 96%;
+  max-width: 30%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  color: #f1f1f1;
+  padding: 20px;
+  margin: 1%;
+  p, h5 {
+    letter-spacing: 0.75px;
+    font-weight: lighter;
+  }
+  i {
+    margin-right: 3px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-banner {
+    min-height: 100vh;
+  }
+  .contact-content{
+  max-width: 100%;
+  left: 0%;
+  }
+}
