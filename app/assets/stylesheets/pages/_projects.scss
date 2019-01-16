@@ -145,7 +145,7 @@
 
 .project-links {
   flex: 70%;
-  background-color: #2D3F5B;
+  background-color: black;
   padding: 20px;
   display: flex;
   justify-content: space-around;
@@ -161,11 +161,16 @@
 
 .project-address {
   flex: 30%;
-  background-color: #2D3F5B;
+  background-color: black;
   padding: 20px;
   text-align: center;
   color: $white;
-  line-height: 1;
+  line-height: .75;
+  font-weight: lighter;
+  p {
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+  }
 }
 
 @media screen and (max-width: 700px) {

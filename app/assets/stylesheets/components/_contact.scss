@@ -10,8 +10,12 @@
   background-position: bottom;
   background-color: black;
   width: 100%;
-  min-height: 60vh;
-
+  min-height: 70vh;
+  h1 {
+  position: absolute;
+  right: 20%;
+  max-width: 20%;
+  }
 }
 
 .contact-content {
@@ -35,6 +39,16 @@
   }
   i {
     margin-right: 3px;
+  }
+}
+
+.contact-logo {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  width: 150px;
+  img {
+    width: 100%;
   }
 }
 
