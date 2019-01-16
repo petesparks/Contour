@@ -33,12 +33,16 @@
   color: #f1f1f1;
   padding: 20px;
   margin: 1%;
-  p, h5 {
+  a, p, h5 {
     letter-spacing: 0.75px;
     font-weight: lighter;
   }
   i {
     margin-right: 3px;
+  }
+  a {
+    margin-bottom: 8px;
+    color: #00BFD8;
   }
 }
 
