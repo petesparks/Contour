@@ -1,37 +1,30 @@
-<nav class="navbar <%= 'navbar-home' if params[:action] == 'home' %>">
+<nav class="navbar #navbar <%= 'navbar-home' if params[:action] == 'home' %>">
   <!-- Logo -->
   <%= link_to image_tag('NavbarLogo.png'), root_path, class: "navbar-brand" %>
 
   <!-- Phone Number -->
-
   <a href="tel:07793004675" class="navbar-brand navbar-item navbar-link">Call Ingrid: 07793 004675</a>
-
 
   <!-- Right Navigation -->
   <div class="navbar-right ml-auto">
     <%= link_to 'Services', services_path, class: "navbar-item navbar-link" %>
-    <%= link_to 'Projects', projects_path, class: "navbar-item navbar-link" %>
+    <div class="dropdown navbar-link navbar-item">
+      <a class="dropdown-toggle" id="navbar-menu" data-toggle="dropdown">Projects</a>
+      <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">
+        <li><a href="/services">Services</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/about">Team</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/about">Contact</a></li>
+      </ul>
+    </div>
     <%= link_to 'Team', about_path, class: "navbar-item navbar-link" %>
     <%= link_to 'About', about_path, class: "navbar-item navbar-link" %>
     <%= link_to 'Contact', about_path, class: "navbar-item navbar-link" %>
-
-    <!-- Profile picture with dropdown list -->
-    <!-- <div class="navbar-item">
-      <div class="dropdown">
-        <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-menu" data-toggle="dropdown">
-        <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">
-          <li><a href="/services">Services</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/about">Team</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/about">Contact</a></li>
-        </ul>
-      </div>
-    </div> -->
   </div>
 
   <!-- Dropdown appearing on mobile only -->
-  <div class="navbar-item d-md-none">
+  <div class="navbar-item d-lg-none">
     <div class="dropdown">
       <i class="fas fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">

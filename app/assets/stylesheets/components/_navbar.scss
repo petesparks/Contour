@@ -11,6 +11,10 @@
   position: sticky !important;
   top: 0 !important;
   z-index: 1;
+  transition: 0.75s;
+  .navbar-link {
+    color: #00BFD8;
+  }
 }
 
 /* transparent navbar on home page*/
@@ -58,10 +62,6 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 700px){
-  .navbar-right{display: none;}
-}
-
 /* Basic navbar item */
 .navbar-item {
   cursor: pointer;
@@ -74,6 +74,9 @@
   }
   .navbar {
     padding: 0 0px;
+  }
+  .navbar-right {
+    display: none;
   }
 }
 
@@ -96,10 +99,15 @@
 
 /* Dropdown menu */
 .dropdown {
-  color: $white;
-  font-size: 24px;
+  color: #00BFD8;
   cursor: pointer;
   padding-right: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+  .dropdown {
+  font-size: 24px;
+  }
 }
 
 .navbar-dropdown-menu {
@@ -131,3 +139,8 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+
+
+
+
