@@ -17,6 +17,10 @@ import '../components/slick';
 import '../components/aos';
 import '../components/video';
 
+
+import { initUpdateNavbarOnScroll } from '../components/navbar';
+initUpdateNavbarOnScroll();
+
 import { loadDynamicBannerText } from '../components/banner';
 // loadDynamicBannerText();
 
