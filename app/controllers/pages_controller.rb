@@ -10,4 +10,19 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def horsham
+  end
+
+  def radlett
+  end
+
+  def leicester
+  end
+
+  def balfron
+  end
+
+  def bunkers
+  end
 end

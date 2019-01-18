@@ -110,10 +110,15 @@
   }
 }
 
+.dropdown-divider {
+  border-top: 1px solid #e6e6e6;
+}
+
 .navbar-dropdown-menu {
   margin-top: 15px;
-  box-shadow: 1px 1px 4px #E6E6E6;
+  box-shadow: 0.5px 0.5px 8px #45D0E2;
   border-color: #E6E6E6;
+  width: max-content;
 }
 .navbar-dropdown-menu li > a {
   transition: color 0.3s ease;
@@ -140,6 +145,11 @@
   border-top: 1px solid #E6E6E6;
 }
 
+.dropdown-toggle::after {
+  position: relative;
+  bottom: -3px;
+  border-top: 0.5em solid;
+}
 
 
 

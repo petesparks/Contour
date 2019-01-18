@@ -12,16 +12,20 @@
       <a class="dropdown-toggle" id="navbar-menu" data-toggle="dropdown">Projects</a>
       <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">
         <h6 class="dropdown-header">Soil Recovery Projects</h6>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/about">Team</a></li>
+        <li><a href="/projects/soilrecovery/horsham">Horsham 'The Oaks'</a></li>
+        <li><a href="/projects/soilrecovery/radlett">Radlett Driving Range</a></li>
+        <li><a href="/projects/soilrecovery/leicester">Leicester Driving Range</a></li>
         <div class="dropdown-divider"></div>
         <h6 class="dropdown-header">Traditional</h6>
-        <li><a href="/about">About</a></li>
+        <li><a href="/projects/traditional/balfron">Balfron Golf Club</a></li>
+        <div class="dropdown-divider"></div>
+        <h6 class="dropdown-header">Bunker Construction</h6>
+        <li><a href="/projects/bunkers">Bunker Projects</a></li>
+        <div class="dropdown-divider"></div>
         <li><a href="/about">Contact</a></li>
       </ul>
     </div>
-    <%= link_to 'Team', about_path, class: "navbar-item navbar-link" %>
+    <%#= link_to 'Team', about_path, class: "navbar-item navbar-link" %>
     <%= link_to 'About', about_path, class: "navbar-item navbar-link" %>
     <%= link_to 'Contact', about_path, class: "navbar-item navbar-link" %>
   </div>
@@ -32,12 +36,16 @@
       <i class="fas fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">
         <li class="dropdown-header">Dropdown header</li>
-        <li><%= link_to 'Services', services_path %></li>
-        <li><%= link_to 'Projects', projects_path %></li>
-        <li><%= link_to 'Team', about_path %></li>
+        <li><%= link_to 'Horsham "The Oaks"', projects_soilrecovery_horsham_path %></li>
+        <li><%= link_to 'Radlett Driving Range', projects_soilrecovery_radlett_path %></li>
+        <li><%= link_to 'Leicester Driving Range', projects_soilrecovery_leicester_path %></li>
         <div class="dropdown-divider"></div>
         <h6 class="dropdown-header">Traditional</h6>
-        <li><%= link_to 'About', about_path %></li>
+        <li><%= link_to 'Balfron Golf Club', projects_traditional_balfron_path %></li>
+        <div class="dropdown-divider"></div>
+        <h6 class="dropdown-header">Bunker Construction</h6>
+        <li><%= link_to 'Bunker Projects', projects_bunkers_path %></li>
+        <div class="dropdown-divider"></div>
         <li><%= link_to 'Contact', about_path %></li>
       </ul>
     </div>
