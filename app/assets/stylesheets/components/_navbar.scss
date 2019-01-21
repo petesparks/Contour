@@ -107,11 +107,20 @@
 @media only screen and (max-width: 700px) {
   .dropdown {
   font-size: 24px;
+  margin-right: 8px;
+  }
+  .dropdown-toggle::after {
+    display: none;
   }
 }
 
 .dropdown-divider {
   border-top: 1px solid #e6e6e6;
+}
+
+.dropdown-menu-right {
+  right: -6px;
+  left: auto;
 }
 
 .navbar-dropdown-menu {
