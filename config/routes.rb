@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get 'projects/soilrecovery/horsham', to: 'pages#horsham'
   get 'projects/soilrecovery/radlett', to: 'pages#radlett'
   get 'projects/soilrecovery/leicester', to: 'pages#leicester'
-  get 'projects/traditional/balfron', to: 'pages#balfron'
+  get 'projects/traditional/portfolio', to: 'pages#portfolio'
   get 'projects/bunkers', to: 'pages#bunkers'
   get 'about', to: 'pages#about', as: :about
 

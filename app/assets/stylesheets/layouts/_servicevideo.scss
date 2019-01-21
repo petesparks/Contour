@@ -8,7 +8,7 @@
 }
 
 #myVideo {
-  // position: relative;
+  position: relative;
   background-color: black;
   min-width: 100%;
   min-height: 100%;
@@ -37,9 +37,20 @@
 @media only screen and(max-width: 600px) {
   .contentVid {
     bottom: -40vh;
+    top: -22rem;
+    height: fit-content;
   }
   .video-wrapper {
     min-height: 80vh;
+  }
+  #myVideo {
+    position: relative;
+    min-height: 80vh;
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0.15) 0%,
+    rgba(0,0,0,0.25) 80%), url('https://res.cloudinary.com/lwsw18ldn/image/upload/q_auto:low/v1547033292/Contour/Contour_Golf_CAT_Dozer.jpg');
+    background-size: cover !important;
+    background-position: center;
+    left: -50%;
   }
 }
 
