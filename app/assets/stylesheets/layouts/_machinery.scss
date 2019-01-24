@@ -1,0 +1,42 @@
+.machinery-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 70vh;
+  margin: 5%;
+  // width: 100%;
+}
+
+.machinery-content {
+  flex: 30%;
+  padding: 20px;
+  align-self: center;
+}
+
+.machine-img {
+  flex: 70%;
+  padding: 20px;
+  img {
+    width: 104%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .machinery-wrap {
+    margin: 0%;
+  }
+  .machinery-content {
+    flex: 100%;
+  }
+  .machine-img {
+    flex: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .machinery-content {
+    flex: 100%;
+  }
+  .machine-img {
+    flex: 100%;
+  }
+}
