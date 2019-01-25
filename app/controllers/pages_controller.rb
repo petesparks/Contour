@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   def projects
   end
 
-  def about
+  def contact
   end
 
   def horsham
