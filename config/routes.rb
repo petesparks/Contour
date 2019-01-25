@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get 'projects/soilrecovery/leicester', to: 'pages#leicester'
   get 'projects/traditional/portfolio', to: 'pages#portfolio'
   get 'projects/bunkers', to: 'pages#bunkers'
-  get 'about', to: 'pages#about', as: :about
+  get 'contact', to: 'pages#contact', as: :contact
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
