@@ -2,18 +2,20 @@
   display: flex;
   flex-wrap: wrap;
   min-height: 70vh;
-  margin: 5%;
+  margin: 5% 10% 5% 5%
+  // margin-left: 5%;
+  // margin-right: 10%;
   // width: 100%;
 }
 
 .machinery-content {
-  flex: 30%;
+  flex: 40%;
   padding: 20px;
   align-self: center;
 }
 
 .machine-img {
-  flex: 70%;
+  flex: 60%;
   padding: 20px;
   img {
     width: 104%;
