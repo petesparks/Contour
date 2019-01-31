@@ -68,7 +68,7 @@
   padding: 0 20px;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 770px){
   .navbar-item {
     padding: 0 0px;
   }
@@ -94,7 +94,10 @@
 }
 
 @media screen and (max-width: 700px){
-  font-weight: 300px;
+  .navbar-link {
+    font-size: 14px;
+    font-weight: 300px;
+  }
 }
 
 /* Dropdown menu */
