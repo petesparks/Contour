@@ -62,7 +62,7 @@
     bottom: 0;
     width: 100%;
     color: $white;
-    transform: translateY(calc(90px + 4em));
+    transform: translateY(calc(120px + 4em));
     transition: transform 0.6s;
     .content {
       padding: 1em;
@@ -78,8 +78,9 @@
     margin-top: 10px;
   }
   .text {
-    height: 70px;
+    height: 100px;
     margin: 0;
+    overflow: auto;
   }
 
   .title {
