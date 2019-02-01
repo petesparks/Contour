@@ -21,7 +21,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 10rem;
+  top: 4rem;
   left: 0%;
   height: auto;
   background: rgba(0, 0, 0, 0.5);
@@ -29,7 +29,7 @@
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
-  max-height: 70vh;
+  max-height: 84vh;
   overflow: auto;
 }
 
@@ -191,7 +191,7 @@
 /* portfolio divider section */
 
 .portfolio-divide {
-  height: 150vh;
+  height: 100vh;
   background-color: black;
   color: $white;
   text-align: center;
@@ -208,9 +208,9 @@
   }
 }
 
-.text-center {
+.portfolio-text-center {
   position: relative;
-  top: 45%;
+  top: 55%;
 }
 
 .text-bottom {
