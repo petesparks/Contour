@@ -17,6 +17,7 @@ import '../components/slick';
 import '../components/aos';
 import '../components/video';
 import '../components/smoothscroll';
+import '../components/autoscroll';
 
 // import { smoothScrolling } from '..components/smoothscroll';
 

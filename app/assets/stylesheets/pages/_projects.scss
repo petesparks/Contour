@@ -27,7 +27,7 @@
 /* project divider section */
 
 .project-divide {
-  height: 150vh;
+  height: 60vh;
   background-color: black;
   color: $white;
   text-align: center;
@@ -46,25 +46,25 @@
 
 .text-center {
   position: relative;
-  top: 45%;
+  top: 55%;
 }
 
 .text-bottom {
   position: absolute;
-  bottom: 15%;
+  bottom: 5%;
   right: 10%;
   img {
-    width: 35%;
+    width: 25%;
   }
 }
 
 .project-divide-banner {
   background-image: url("https://res.cloudinary.com/lwsw18ldn/image/upload/v1547640646/Contour/hiseman_contour-horsham_golf_18th.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-color: black;
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   margin-top: -1px;
 }
 
@@ -90,6 +90,10 @@
 }
 
 /* carousel section */
+#project {
+  height: 60px;
+  background-color: black;
+}
 
 .project-car-wrap {
   position: relative;
