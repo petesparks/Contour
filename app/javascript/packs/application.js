@@ -16,7 +16,9 @@ import 'slick-carousel/slick/slick-theme.scss'
 import '../components/slick';
 import '../components/aos';
 import '../components/video';
+import '../components/smoothscroll';
 
+// import { smoothScrolling } from '..components/smoothscroll';
 
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 initUpdateNavbarOnScroll();
