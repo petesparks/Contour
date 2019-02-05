@@ -15,7 +15,7 @@
         <h6 class="dropdown-header">Soil Recovery Projects</h6>
         <li><a href="/projects/soilrecovery/horsham">Horsham 'The Oaks'</a></li>
         <li><a href="/projects/soilrecovery/radlett">Radlett Driving Range</a></li>
-        <li><a href="/projects/soilrecovery/leicester">Leicester Driving Range</a></li>
+        <li><a href="/projects/soilrecovery/leicester">Leicester Golf Centre</a></li>
         <div class="dropdown-divider"></div>
         <h6 class="dropdown-header">Traditional Build</h6>
         <li><a href="/projects/traditional/portfolio">Our Portfolio</a></li>
@@ -36,12 +36,13 @@
       <i class="fas fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">
         <li class="dropdown-header">Menu</li>
+        <li><%= link_to 'Home', root_path, class: "navbar-item navbar-link" %></li>
         <li><%= link_to 'Services', services_path, class: "navbar-item navbar-link" %></li>
         <div class="dropdown-divider"></div>
         <li class="dropdown-header">Soil Recovery Projects</li>
         <li><%= link_to 'Horsham "The Oaks"', projects_soilrecovery_horsham_path %></li>
         <li><%= link_to 'Radlett Driving Range', projects_soilrecovery_radlett_path %></li>
-        <li><%= link_to 'Leicester Driving Range', projects_soilrecovery_leicester_path %></li>
+        <li><%= link_to 'Leicester Golf Centre', projects_soilrecovery_leicester_path %></li>
         <div class="dropdown-divider"></div>
         <h6 class="dropdown-header">Traditional Build</h6>
         <li><%= link_to 'Our Portfolio', projects_traditional_portfolio_path %></li>
