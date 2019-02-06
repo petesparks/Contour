@@ -51,7 +51,7 @@
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
-.card:hover:after {
+.card:hover:after, .card:active:after, .card:focus:after {
     opacity:1;
 }
 
