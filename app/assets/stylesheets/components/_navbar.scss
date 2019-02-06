@@ -17,6 +17,10 @@
   }
 }
 
+@media only screen and (max-width: 700px) {
+  display: block;
+}
+
 /* transparent navbar on home page*/
 .navbar-home {
   background-color: transparent;
