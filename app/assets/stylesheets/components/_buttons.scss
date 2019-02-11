@@ -1,18 +1,37 @@
 .btn-medium {
+  width: 200px;
   color: #00BFD8;
-  border: 1.5px solid #00BFD8;
+  border: 1px solid #00BFD8;
   padding: 10px 15px;
   border-radius: 50px;
   font-weight: 400;
   opacity: 1;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
-  box-shadow: 1px 1px 9px 5px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  // text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+  // box-shadow: 1px 1px 9px 5px rgba(0, 0, 0, 0.2);
 }
 
 .btn-medium:hover {
   opacity: 1;
   text-decoration: none;
   color: #da552f;
-  border: 1.5px solid #da552f;
+  border: 1px solid #da552f;
   transition: 0.5s;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+#myBtn:hover {
+  background: none;
+  color: #00BFD8;
+  border-color: #00BFD8;
 }

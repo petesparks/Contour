@@ -1,4 +1,4 @@
-<div class="wrapper-card">
+<div class="wrapper-card" id="cards">
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-24 col-md-12">
@@ -7,9 +7,15 @@
           <div class="data">
             <div class="content">
               <span class="sub-title">Balfron Golf Society</span>
+              <!-- PreventDefault configuration for smoothscroll on homepage -->
+              <% if params[:action] == 'home' %>
               <h3 class="title"><%= link_to 'Traditional Golf Course Construction', services_path(anchor: 'traditional') %></h3>
               <p class="text">From the rebuilding of a single hole to the design and build of an entire golf complex, our attention to detail is paramount.</p>
               <%= link_to 'Learn More', services_path(anchor: 'traditional'), class:"button" %>
+              <% else %>
+              <h3 class="title"><a href="#traditional">Traditional Golf Course Construction</a></h3>
+              <p class="text">From the rebuilding of a single hole to the design and build of an entire golf complex, our attention to detail is paramount.</p><a href="#traditional" class="button">Learn More</a>
+              <% end %>
             </div>
           </div>
         </div>
@@ -20,9 +26,14 @@
           <div class="data">
             <div class="content">
               <span class="sub-title">Horsham 'The Oaks' Golf Course</span>
+              <% if params[:action] == 'home' %>
               <h3 class="title"><%= link_to 'Soil Recovery/Infill Construction', services_path(anchor: 'soil') %></h3>
               <p class="text">Working with licensed and specialist soil importation companies, Contour can deliver a fully managed and efficient construction of a golf course infill project.</p>
               <%= link_to 'Learn More', services_path(anchor: 'soil'), class:"button" %>
+              <% else %>
+              <h3 class="title"><a href="#soil">Soil Recovery/Infill Construction</a></h3>
+              <p class="text">Working with licensed and specialist soil importation companies, Contour can deliver a fully managed and efficient construction of a golf course infill project.</p><a href="#soil" class="button">Learn More</a>
+              <% end %>
             </div>
           </div>
         </div>
