@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Contour Golf Limited - Traditional Golf Course Constructors and Specialists in Soil Recovery Projects</title>
+    <title><%= meta_title %></title>
+    <meta name="description" content="<%= meta_description %>">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta charset="utf-8">
-    <meta property="og:image" content="https://res.cloudinary.com/lwsw18ldn/image/upload/q_auto:low/v1547039046/Contour/hiseman_contour_golf_12th_horsham.jpg" />
-    <!-- Facebook Open Graph data -->
-    <meta property="og:title" content="<%= meta_title %>" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="<%= request.original_url %>" />
-    <meta property="og:image" content="<%= meta_image %>" />
-    <meta property="og:description" content="<%= meta_description %>" />
-    <meta property="og:site_name" content="<%= meta_title %>" />
-    <!-- Twitter Card data -->
-    <!-- <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="<%#= DEFAULT_META["twitter_account"] %>">
-    <meta name="twitter:title" content="<%= meta_title %>">
-    <meta name="twitter:description" content="<%= meta_description %>">
-    <meta name="twitter:creator" content="<%#= DEFAULT_META["twitter_account"] %>">
-    <meta name="twitter:image:src" content="<%= meta_image %>"> -->
+    <meta property="og:image" content="https://res.cloudinary.com/lwsw18ldn/image/upload/q_auto:low/v1550225214/Contour/Contour%20Golf%20Limited.png" />
+    <!-- HTML Meta Tags -->
+   <!--  <title>Contour Golf Limited - Golf Course Constructors and Specialists in Soil Recovery Projects</title>
+    <meta name="description" content="Traditional Golf Course Construction Specialists and Experts in Soil Recovery - Inert Waste Infill Projects"> -->
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Contour Golf Limited - Golf Course Constructors and Specialists in Soil Recovery Projects">
+    <meta itemprop="description" content="Traditional Golf Course Construction Specialists and Experts in Soil Recovery - Inert Waste Infill Projects">
+    <meta itemprop="image" content="https://res.cloudinary.com/lwsw18ldn/image/upload/q_auto:low/v1550225214/Contour/Contour%20Golf%20Limited.png">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://www.contour-golf.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contour Golf Limited - Golf Course Constructors and Specialists in Soil Recovery Projects">
+    <meta property="og:description" content="Traditional Golf Course Construction Specialists and Experts in Soil Recovery - Inert Waste Infill Projects">
+    <meta property="og:image" content="https://res.cloudinary.com/lwsw18ldn/image/upload/q_auto:low/v1550225214/Contour/Contour%20Golf%20Limited.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contour Golf Limited - Golf Course Constructors and Specialists in Soil Recovery Projects">
+    <meta name="twitter:description" content="Traditional Golf Course Construction Specialists and Experts in Soil Recovery - Inert Waste Infill Projects">
+    <meta name="twitter:image" content="https://res.cloudinary.com/lwsw18ldn/image/upload/q_auto:low/v1550225214/Contour/Contour%20Golf%20Limited.png">
+
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_pack_tag 'application' %>
     <%= favicon_link_tag 'Contour-Logo-Fav.png'%>
-    <title><%#= meta_title %></title>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
