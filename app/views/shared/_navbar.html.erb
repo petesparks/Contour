@@ -14,7 +14,7 @@
       <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">
         <h6 class="dropdown-header">Soil Recovery Projects</h6>
         <li><a href="/projects/soilrecovery/horsham">Horsham 'The Oaks'</a></li>
-        <li><a href="/projects/soilrecovery/radlett">Radlett Driving Range</a></li>
+        <li><a href="/projects/soilrecovery/radlett">Radlett Golf Centre</a></li>
         <li><a href="/projects/soilrecovery/leicester">Leicester Golf Centre</a></li>
         <div class="dropdown-divider"></div>
         <h6 class="dropdown-header">Traditional Build</h6>
@@ -22,13 +22,26 @@
         <div class="dropdown-divider"></div>
         <h6 class="dropdown-header">Bunker Construction</h6>
         <li><a href="/projects/bunkers">Bunker Projects</a></li>
-        <div class="dropdown-divider"></div>
+      </ul>
+    </div>
+    <div class="dropdown navbar-link navbar-item">
+      <a class="dropdown-toggle" id="navbar-menu" data-toggle="dropdown">Contact</a>
+      <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">
+        <h6 class="dropdown-header">Contact Menu</h6>
         <li><a href="/contact">Contact</a></li>
-        <li><a href="/contact">Careers</a></li>
+        <% if params[:action] == 'home' %>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonial">Testimonials</a></li>
+          <li><a href="/contact">Careers</a></li>
+        <% else %>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#testimonial">Testimonials</a></li>
+          <li><a href="/contact">Careers</a></li>
+        <% end %>
       </ul>
     </div>
     <%#= link_to 'Team', about_path, class: "navbar-item navbar-link" %>
-    <%= link_to 'Contact', contact_path, class: "navbar-item navbar-link" %>
+    <%#= link_to 'Contact', contact_path, class: "navbar-item navbar-link" %>
   </div>
 
   <!-- Dropdown appearing on mobile only -->
@@ -42,7 +55,7 @@
         <div class="dropdown-divider"></div>
         <li class="dropdown-header">Soil Recovery Projects</li>
         <li><%= link_to 'Horsham "The Oaks"', projects_soilrecovery_horsham_path %></li>
-        <li><%= link_to 'Radlett Driving Range', projects_soilrecovery_radlett_path %></li>
+        <li><%= link_to 'Radlett Golf Centre', projects_soilrecovery_radlett_path %></li>
         <li><%= link_to 'Leicester Golf Centre', projects_soilrecovery_leicester_path %></li>
         <div class="dropdown-divider"></div>
         <h6 class="dropdown-header">Traditional Build</h6>
@@ -52,7 +65,15 @@
         <li><%= link_to 'Bunker Projects', projects_bunkers_path %></li>
         <div class="dropdown-divider"></div>
         <li><%= link_to 'Contact', contact_path %></li>
-        <li><%= link_to 'Careers', contact_path %></li>
+        <% if params[:action] == 'home' %>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonial">Testimonials</a></li>
+          <li><a href="/contact">Careers</a></li>
+        <% else %>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#testimonial">Testimonials</a></li>
+          <li><a href="/contact">Careers</a></li>
+        <% end %>
       </ul>
     </div>
   </div>

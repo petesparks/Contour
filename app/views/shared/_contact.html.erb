@@ -1,7 +1,11 @@
 <div class="contact-wrap" id="contact">
   <div class="contact-content">
     <br>
+    <% if params[:action] == 'contact' %>
     <h1 data-aos="fade" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">Contour Golf Ltd</h1>
+    <% else %>
+    <h2 data-aos="fade" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">Contour Golf Ltd</h2>
+    <% end %>
     <br>
     <p>Please get in touch with us for any golf course construction enquiries. We look forward to discussing your project.</p>
     <br>
