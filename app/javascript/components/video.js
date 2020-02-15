@@ -5,7 +5,7 @@ var videoAdd = document.getElementById('myVideo');
 
 if (window.location.pathname == ('/services')) {
   window.onresize = window.onload = function () {
-    if (window.innerWidth < 600) {
+    if (window.innerWidth < 350) {
 
         videoRemove.setAttribute('src','');
     } else {

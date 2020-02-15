@@ -34,7 +34,30 @@
 
 /* Media queries work in conjunction with video.js */
 
+
+@media only screen and(max-width: 1000px) {
+  #myVideo {
+    left: -50%;
+  }
+  .video-wrapper {
+    height: 90vh;
+  }
+  .contentVid {
+    background: rgba(0, 0, 0, 0.0);
+    top: -34rem;
+  }
+}
+
 @media only screen and(max-width: 600px) {
+  #myVideo {
+    left: -100%;
+  }
+  .video-wrapper {
+    height: 90vh;
+  }
+}
+
+@media only screen and(max-width: 350px) {
   .contentVid {
     top: -28rem;
     height: fit-content;
@@ -50,23 +73,5 @@
     background-size: cover !important;
     background-position: center;
     left: -50%;
-  }
-}
-
-@media only screen and(max-width: 800px) {
-  #myVideo {
-    left: -40%;
-  }
-  .video-wrapper {
-    height: 70vh;
-  }
-}
-
-@media only screen and(max-width: 1100px) {
-  #myVideo {
-    left: -40%;
-  }
-  .video-wrapper {
-    height: 70vh;
   }
 }
