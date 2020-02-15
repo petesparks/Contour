@@ -18,7 +18,7 @@ $(function() {
       $('html, body').animate({
         scrollTop: movePos
       }, 2000);
-  }, 25000);
+  }, 26000);
 });
 
 // autoscroll for portfolio
